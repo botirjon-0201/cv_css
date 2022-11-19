@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/shared.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="main-header" id="main-header">
+      <div class="container">
+        <nav id="main-navbar" class="main-navbar">
+          <div class="main-header__brand">
+            <a href="index.html"
+              ><img src="./images/brand.webp" alt="Logo photo"
+            /></a>
+          </div>
+          <div class="main-navigation" id="main-navigation">
+            <ul class="main-navigation__items">
+              <li class="main-navigation__item active">
+                <a href="./index.html">home</a>
+              </li>
+              <li class="main-navigation__item">
+                <a href="#about">about</a>
+              </li>
+              <li class="main-navigation__item">
+                <a href="#services">services</a>
+              </li>
+              <li class="main-navigation__item">
+                <a href="#clients">clients</a>
+              </li>
+              <li class="main-navigation__item">
+                <a href="#portfolio">portfolio</a>
+              </li>
+              <li class="main-navigation__item">
+                <a href="#blog">blog</a>
+              </li>
+              <li class="main-navigation__item">
+                <a href="#partners">partners</a>
+              </li>
+              <li class="main-navigation__item">
+                <a href="./contact.html">contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- /Header section -->
+
+    <!-- Contact section -->
+    <section class="contact">
+      <div class="container">
+        <div class="section-title">Contact us</div>
+        <form action="/server.php" method="GET">
+          <textarea
+            name="message"
+            rows="10"
+            placeholder="Enter message..."
+          ></textarea>
+          <div class="half-flex">
+            <div class="contact__firstname">
+              <input
+                type="text"
+                name="firstname"
+                placeholder="Enter firstname"
+              />
+            </div>
+            <div class="contact__email">
+              <input type="email" name="email" placeholder="Enter email" />
+            </div>
+          </div>
+          <input type="text" name="subject" placeholder="Content" />
+          <button type="submit" class="button contact__send">
+            Send message
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- /Contact section -->
+
+    <!-- Footer section -->
+    <footer>
+      <div class="container">
+        <div class="footer__brand">
+          <img src="./images/brand.webp" alt="Logo" />
+        </div>
+        <nav class="footer__navigation" id="footer__navigation">
+          <ul class="footer__navigation-items">
+            <li class="footer__navigation-item to-uppercase">
+              <a href="./index.html">home</a>
+            </li>
+            <li class="footer__navigation-item to-uppercase">
+              <a href="#about">about</a>
+            </li>
+            <li class="footer__navigation-item to-uppercase">
+              <a href="#services">services</a>
+            </li>
+            <li class="footer__navigation-item to-uppercase">
+              <a href="#clients">clients</a>
+            </li>
+            <li class="footer__navigation-item to-uppercase">
+              <a href="#portfolio">portfolio</a>
+            </li>
+            <li class="footer__navigation-item to-uppercase">
+              <a href="#blog">blog</a>
+            </li>
+            <li class="footer__navigation-item to-uppercase">
+              <a href="#patners">partners</a>
+            </li>
+            <li class="footer__navigation-item to-uppercase">
+              <a href="./contact.html">contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="footer__socials">
+          <li class="footer__social">
+            <a href="#"><i class="fab fa-telegram"></i></a>
+          </li>
+          <li class="footer__social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li class="footer__social">
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </li>
+          <li class="footer__social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li class="footer__social">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+        </ul>
+        <p class="footer__text">
+          Copyright ©2022 All rights reserved | This template is made with
+          <i class="fa fa-heart"></i> by
+          <a href="https://colorlib.com">Colorlib</a>
+        </p>
+      </div>
+    </footer>
+    <!-- Footer section -->
+  </body>
+</html>
